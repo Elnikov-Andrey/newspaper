@@ -1,0 +1,12 @@
+.btn{
+    margin-top: 20px;
+    width: 200px !important;
+}
+ul{
+    margin: 20px auto;
+    list-style-type: none;
+}
+ul li{
+    margin: 5px 0;
+    color: rgb(36, 36, 36);
+}

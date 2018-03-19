@@ -1,0 +1,23 @@
+<div class="container navi">
+  <div class="row">
+    
+    <div class="col">
+      <button (click)="addArticleBtnClick()"
+        class="btn btn-secondary">
+        Create an article
+      </button>
+    </div>
+    
+    <div class="col">
+      <ul>
+        <li *ngFor="let author of authors" routerLink="/article/{{author.id}}">
+          <div class="article">
+              {{author.id}} - {{author.name}} - {{author.article}} - {{author.text}}
+          </div>
+        </li>
+      </ul> 
+    </div>  
+    
+    <div class="col"></div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+      <div class="author-details">
+        <p>In this page you can see articles of your author.</p>
+        <p>This is a {{ author.name | uppercase }} page.</p>
+        <p>{{ author.article }}</p>
+        <p>{{ author.text }}</p>
+        <p>
+          <button (click)="onChangeArticleBtnClick()">Change article</button>
+          <button (click)="onDeleteArticleBtnClick()">Delete article</button>
+        </p>
+      </div>
+    </div>
+  </div>
